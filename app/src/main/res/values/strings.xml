@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">JavaDevelopers</string>
+    <string name="lagos_java_devs">lagos java devs</string>
+    <string name="no_developer_found">No developer found</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="share_intent_message">Check out this awesome developer @</string>
+    <string name="action_change_location">Change Location</string>
+    <string name="lagos">Lagos</string>
+    <string name="in_onLoadFinished_callback">In onLoadFinished callback</string>
+    <string name="in_onLoaderReset_callback">In onLoaderReset callback</string>
+    <string name="in_onCreateLoader">In onCreateLoader</string>
+    <string name="in_onStartLoading">In onStartLoading</string>
+    <string name="in_LoadInBackground">In LoadInBackground</string>
+    <string name="problem_parsing_the_earthquake_JSON_results">Problem parsing the earthquake JSON results</string>
+    <string name="change_location">Change Location</string>
+
+    <!-- Label for the Location preference -->
+    <string name="pref_location_label">Location</string>
+
+    <!-- Label for lagos location preference -->
+    <string name="pref_location_label_lagos">Lagos</string>
+    <!-- Label for calabar location preference  -->
+    <string name="pref_location_label_calabar">Calabar</string>
+    <!-- Label for port harcourt location preference  -->
+    <string name="pref_location_label_portharcourt">Port Harcourt</string>
+
+    <!-- Label for abuja location preference  -->
+    <string name="pref_location_label_abuja">Abuja</string>
+
+    <!-- Label for uyo location preference  -->
+    <string name="pref_location_label_uyo">Uyo</string>
+
+    <!-- Key name for location preference in SharedPreferences -->
+    <string name="pref_location_key" translatable="false">location</string>
+
+
+    <!-- Value in SharedPreferences for lagos location option -->
+    <string name="pref_location_lagos_value" translatable="false">lagos</string>
+
+    <!-- Value in SharedPreferences for calabar locationoption -->
+    <string name="pref_location_calabar_value" translatable="false">calabar</string>
+
+    <!-- Value in SharedPreferences for portharcourt location option -->
+    <string name="pref_location_portharcourt_value" translatable="false">portharcourt</string>
+
+    <!-- Value in SharedPreferences for Abuja location option -->
+    <string name="pref_location_abuja_value" translatable="false">abuja</string>
+
+    <!-- Value in SharedPreferences for Abuja location option -->
+    <string name="pref_location_uyo_value" translatable="false">uyo</string>
+    <string name="lagos_github_url">https://api.github.com/search/users?q=location:lagos+language:java</string>
+    <string name="calabar_github_url">https://api.github.com/search/users?q=location:calabar+language:java</string>
+    <string name="portharcourt_github_url">https://api.github.com/search/users?q=location:port-harcourt+language:java</string>
+    <string name="abuja_github_url">https://api.github.com/search/users?q=location:abuja+language:java</string>
+    <string name="uyo_github_url">https://api.github.com/search/users?q=location:uyo+language:java</string>
+    <string name="eko_o_ni_baje_o">Eko o\'ni baje o...</string>
+</resources>

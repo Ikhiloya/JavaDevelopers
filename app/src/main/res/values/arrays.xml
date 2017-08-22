@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Label ordering must match values -->
+    <array name="pref_location_option_labels">
+        <item>@string/pref_location_label_lagos</item>
+        <item>@string/pref_location_label_calabar</item>
+        <item>@string/pref_location_label_portharcourt</item>
+        <item>@string/pref_location_label_abuja</item>
+        <item>@string/pref_location_label_uyo</item>
+    </array>
+
+    <array name="pref_location_option_values">
+        <item>@string/pref_location_lagos_value</item>
+        <item>@string/pref_location_calabar_value</item>
+        <item>@string/pref_location_portharcourt_value</item>
+        <item>@string/pref_location_abuja_value</item>
+        <item>@string/pref_location_uyo_value</item>
+    </array>
+</resources>

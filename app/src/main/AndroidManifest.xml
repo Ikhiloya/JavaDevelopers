@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.loya.android.javadevelopers">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- This checks for the network state of the device -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DeveloperActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".DetailActivity"
+            android:label="Profile"
+            android:parentActivityName=".DeveloperActivity">
+            <meta-data
+                android:name="android.Support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity android:name=".SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".DeveloperActivity">
+            <meta-data
+                android:name="android.Support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+    </application>
+</manifest>
